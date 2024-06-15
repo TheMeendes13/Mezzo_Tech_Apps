@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+<div class="d-flex" id="wrapper">
+    <!-- Menu Lateral -->
+    <div class="bg-light border-right" id="sidebar-wrapper">
+        <div class="sidebar-heading text-center">
+            <img src="Round Logo.png" alt="Logo" class="menu-logo">
+        </div>
+        <div class="list-group list-group-flush">
+            <a href="index.html" class="list-group-item list-group-item-action bg-light">Início</a>
+            <a href="#" class="list-group-item list-group-item-action bg-light">Minha conta</a>
+            <a href="roteiros.html" class="list-group-item list-group-item-action bg-light">Meus roteiros</a>
+        </div>
+    </div>
+
+    <!-- Conteúdo da Página -->
+    <div id="page-content-wrapper">
+        <div class="container-fluid content-wrapper">
+            <h3 class="mt-4">Olá,  <span id="nome">Usuário</span>. <br>Bem vindo ao Coleciona Viagens </h3>
+            <div class="content-block">
+                <p>Acesse uma das opções abaixo ou navegue pelo menu lateral.</p>
+                <a href="roteiros.html">
+                    <img src="roteiros-img.png" alt="Meus Roteiros" class="img-fluid">
+                </a>
+                <img src="breve.png" alt="Placeholder Image 2" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

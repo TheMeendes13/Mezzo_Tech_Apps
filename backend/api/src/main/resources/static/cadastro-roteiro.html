@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Roteiro</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+<div class="d-flex" id="wrapper">
+    <!-- Menu Lateral -->
+    <div class="bg-light border-right" id="sidebar-wrapper">
+        <div class="sidebar-heading text-center">
+            <img src="Round Logo.png" alt="Logo" class="menu-logo">
+        </div>
+        <div class="list-group list-group-flush">
+            <a href="index.html" class="list-group-item list-group-item-action bg-light">Início</a>
+            <a href="#" class="list-group-item list-group-item-action bg-light">Minha conta</a>
+            <a href="roteiros.html" class="list-group-item list-group-item-action bg-light">Meus roteiros</a>
+        </div>
+    </div>
+
+    <!-- Conteúdo da Página -->
+    <div id="page-content-wrapper" class="cadastro-roteiro-content-wrapper">
+        <div class="container-fluid cadastro-roteiro-container">
+            <h3 class="mt-4 text-center">Cadastre um Novo Roteiro</h3>
+            <form id="cadastroRoteiroForm" class="mt-4">
+                <div class="form-group">
+                    <label for="origem">Origem</label>
+                    <input type="text" class="form-control" id="origem" required>
+                </div>
+                <div class="form-group">
+                    <label for="destino">Destino</label>
+                    <input type="text" class="form-control" id="destino" required>
+                </div>
+                <div class="form-group">
+                    <label for="gasto">Gasto</label>
+                    <input type="number" class="form-control" id="gasto" required>
+                </div>
+                <div class="form-group">
+                    <label for="voo">Número do Voo</label>
+                    <input type="text" class="form-control" id="voo" required>
+                </div>
+                <div class="form-group">
+                    <label for="dataSaida">Data de Saída</label>
+                    <input type="date" class="form-control" id="dataSaida" required>
+                </div>
+                <div class="form-group">
+                    <label for="dataRetorno">Data de Retorno</label>
+                    <input type="date" class="form-control" id="dataRetorno" required>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary mr-2">Enviar</button>
+                    <button type="button" class="btn btn-secondary" onclick="cancelarCadastro()">Cancelar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,222 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.container-login {
+    background-color: #e9ecef;
+    border-radius: 8px;
+    padding: 2rem;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    padding: 70px;
+    box-sizing: border-box;
+}
+
+.area {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-style: groove;
+    border-radius: 25px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.back-button {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.main-content {
+    text-align: center;
+}
+
+.main-content img {
+    max-width: 100px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+    align: center;
+}
+
+.main-content h3 {
+    margin-top: 20px;
+}
+
+form .btn-primary {
+    width: 100%;
+    max-width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#wrapper {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+
+#sidebar-wrapper {
+    width: 250px;
+    margin-left: 50px;
+    margin-top: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: 1000;
+    background-color: #f8f9fa;
+    border-right: 1px solid #e7e7e7;
+}
+
+.menu-logo {
+    width: 100px;
+    height: 100px;
+}
+
+#page-content-wrapper {
+    flex: 1;
+    margin-left: 300px;
+    padding: 20px;
+}
+
+
+.container-fluid.content-wrapper {
+    padding-top: 20px;
+    text-align: left;
+}
+
+.content-block {
+    margin-top: 20px;
+}
+
+.content-block img {
+        max-width: 300px;
+        max-height: 300px;
+        width: auto;
+        height: auto;
+}
+
+.roteiros-container {
+    padding-top: 50px;
+    padding-left: 50px;
+    text-align: left;
+}
+
+.roteiros-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.roteiro-card {
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 20px;
+    width: calc(33.333% - 40px); /* 33.333% width minus gap space */
+    box-sizing: border-box;
+}
+
+.roteiro-card h5 {
+    margin-top: 0;
+}
+
+.roteiro-card p {
+    margin: 5px 0;
+}
+
+.h-50 {
+    height: 50vh;
+}
+
+.welcome-logo {
+    width: 300px;
+    height: 300px;
+}
+
+.welcome-image {
+    width: 200px;
+    height: 200px;
+}
+
+.welcome-text {
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+.rounded {
+    border-radius: 5px;
+}
+
+.custom-btn {
+    max-width: 300px;
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+.mb-2 {
+    margin-bottom: 20px !important;
+}
+
+.login-image {
+    width: 200px;
+    height: 200px;
+}
+
+.custom-btn {
+    max-width: 300px;
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+.mt-3 {
+    margin-top: 1rem !important;
+}
+
+.mt-4 {
+    margin-top: 1.5rem !important;
+}
+
+.mt-5 {
+    margin-top: 3rem !important;
+}
+
+.cadastro-roteiro-container {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: left;
+}
+
+form .form-group {
+    margin-bottom: 1.5rem;
+}
+
+form .btn {
+    max-width: 200px;
+    width: 100%;
+    margin: 5px;
+}
+

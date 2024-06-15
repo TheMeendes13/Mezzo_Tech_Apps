@@ -1,0 +1,1 @@
+alter table usuarios add perfil varchar(50) not null;

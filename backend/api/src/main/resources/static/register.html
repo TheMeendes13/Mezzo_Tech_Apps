@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Usuário</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <div class="area">
+        <div class="header">
+            <a href="javascript:history.back()" class="back-button">&larr; Voltar</a>
+        </div>
+        <div class="main-content">
+            <img src="Round Logo.png" alt="Imagem de Viagem">
+            <h3>Sua viagem começa aqui</h3>
+            <h4>Cadastre-se e comece sua aventura </h4>
+        </div>
+        <form id="registerForm" class="mt-4">
+            <div class="form-group">
+                <label for="nome">Nome</label>
+                <input type="text" class="form-control" id="nome" required placeholder="Digite seu nome">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" required placeholder="Insira seu e-mail">
+            </div>
+            <div class="form-group">
+                <label for="senha">Senha</label>
+                <input type="password" class="form-control" id="senha" required placeholder="Escolha uma senha forte">
+            </div>
+            <div class="form-group">
+                <label for="pais">País</label>
+                <input type="text" class="form-control" id="pais" required placeholder="Digite seu país">
+            </div>
+            <div class="form-group">
+                <label for="estado">Estado/Província</label>
+                <input type="text" class="form-control" id="estado" required placeholder="Digite o seu Estado">
+            </div>
+            <div class="form-group">
+                <label for="cidade">Cidade</label>
+                <input type="text" class="form-control" id="cidade" required placeholder="Digite a sua cidade">
+            </div>
+            <div class="form-group">
+                <label for="genero">Gênero</label>
+                <select class="form-control" id="genero" required>
+                    <option value="HOMEM_CIS">Homem Cis</option>
+                    <option value="MULHER_CIS">Mulher Cis</option>
+                    <option value="HOMEM_TRANS">Homem Trans</option>
+                    <option value="MULHER_TRANS">Mulher Trans</option>
+                    <option value="NAO_BINARIO">Não Binário</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="perfil">Perfil</label>
+                <select class="form-control" id="perfil" required>
+                    <option value="Refinado">Refinado</option>
+                    <option value="Aventureiro">Aventureiro</option>
+                    <option value="Cultural">Cultural</option>
+                    <option value="Urbano">Urbano</option>
+                    <option value="Natureba">Natureba</option>
+                    <option value="Relax">Relax</option>
+                    <option value="Cultural">Cultural</option>
+                    <option value="Intercambista">Intercambista</option>
+                    <option value="Romântico">Romântico</option>
+                    <option value="Mochileiro">Mochileiro</option>
+                    <option value="Guia">Guia</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Cadastrar</button>
+        </form>
+    </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
